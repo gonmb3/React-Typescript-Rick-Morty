@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 
 import { Home } from "./pages/Home";
-import { Login } from "./pages/Login";
+
 import { RouterLayout } from "./common/RouterLayout";
 import CharacterDetails from "./pages/CharacterDetails";
+import Login from "./pages/Login";
 
 export const AppRouter: React.FC<{}> = () => {
   return (
