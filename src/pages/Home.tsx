@@ -33,6 +33,7 @@ export const Home: React.FC = () => {
     /* pagination change */
   }
   const handleChange = (e: React.ChangeEvent<unknown>, value: number) => {
+    console.log(e)
     setPage(value);
   };
 
